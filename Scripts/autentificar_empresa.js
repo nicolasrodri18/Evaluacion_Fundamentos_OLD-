@@ -1,3 +1,4 @@
+// Función para validar el acceso de la empresa
 const validarAcceso = function() {
     // Solicitar la edad del usuario
     let edad = parseInt(prompt("Ingrese su edad:"));
@@ -13,7 +14,7 @@ const validarAcceso = function() {
     }
 }
 
-
+// Función para manejar la autenticación de la empresa
 export let autenficacion = () => {
     let mensajeAcceso = validarAcceso();
     alert(mensajeAcceso);
